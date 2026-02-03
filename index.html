@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Attendly - Attendance Tracking</title>
+  </head>
+  <body>
+    <header>
+      <h1>Attendly</h1>
+      <p>Date: <span id="current-date">[Current Date]</span></p>
+    </header>
+
+    <main>
+      <section>
+        <h2>Add Student</h2>
+        <form>
+          <input
+            type="text"
+            id="student-name"
+            placeholder="Enter student name"
+          />
+          <input
+            type="text"
+            id="matriculation-number"
+            placeholder="Enter matriculation number"
+          />
+          <button type="submit">Add Student</button>
+        </form>
+      </section>
+
+      <section>
+        <h2>Students</h2>
+        <ul id="students-list">
+          <!-- Student list will be displayed here -->
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
