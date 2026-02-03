@@ -98,3 +98,24 @@ button:active {
 #students-list li:last-child {
   border-bottom: none;
 }
+
+#students-list li > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+#clear-students-btn {
+  margin-top: 20px;
+  width: 100%;
+  background-color: #e74c3c;
+}
+
+#clear-students-btn:hover {
+  background-color: #c0392b;
+}
+
+#clear-students-btn:active {
+  background-color: #a93226;
+}
